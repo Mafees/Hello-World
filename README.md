@@ -8,3 +8,7 @@
 git fetch origin 
 git checkout -b readme-edits origin / readme-edits 
 git merge main
+
+git checkout main
+git merge --no-ff readme-edits
+git push origin main
